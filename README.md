@@ -1,4 +1,4 @@
-## EXP NO 07: IMPLEMENTATION OF SYNCHRONOUS UP COUNTER 
+## EXP NO 11: IMPLEMENTATION OF SYNCHRONOUS UP COUNTER 
 # NAME.- DEEPIKA G
 # REG NO.- 212224040060
 
@@ -44,13 +44,7 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 
 ## PROGRAM:
 
-```
-Program for flipflops and verify its truth table in quartus using Verilog programming. 
-Developed by: RAGUL K R
-RegisterNumber:24900660
-```
-```
-module UP(out,clk,rstn);
+module UPcounter(out,clk,rstn);
 input clk,rstn;
 output reg [3:0]out;
 always @ (posedge clk)
@@ -61,14 +55,13 @@ begin
      out <= out+1;
 end
 endmodule
-```
 
 ## RTL LOGIC UP COUNTER:
-![Screenshot 2025-01-01 144741](https://github.com/user-attachments/assets/6f238aec-40be-4703-8743-a8b9dc6202a5)
+![Screenshot 2025-05-06 103344](https://github.com/user-attachments/assets/29ffb43b-1f76-4bbb-8902-131d98de4476)
 
 
-## TIMING DIAGRAM FOR IP COUNTER:
-![WhatsApp Image 2025-01-07 at 09 13 24_29075446](https://github.com/user-attachments/assets/31b662d2-92bb-4e0f-a2f2-6d123f8d0091)
+## Wave form FOR IP COUNTER:
+![Screenshot 2025-05-06 102803](https://github.com/user-attachments/assets/b1ba057c-44da-4c89-85a4-4bcdd5b3fa7a)
 
 
 ## TRUTH TABLE:
