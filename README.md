@@ -67,7 +67,6 @@ endmodule
 ## RTL LOGIC UP COUNTER:
 ![Screenshot 2025-05-06 103344](https://github.com/user-attachments/assets/29ffb43b-1f76-4bbb-8902-131d98de4476)
 
-
 ## Wave form FOR IP COUNTER:
 ![Screenshot 2025-05-06 102803](https://github.com/user-attachments/assets/b1ba057c-44da-4c89-85a4-4bcdd5b3fa7a)
 
