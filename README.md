@@ -45,15 +45,25 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 ## PROGRAM:
 
 module UPcounter(out,clk,rstn);
+
 input clk,rstn;
+
 output reg [3:0]out;
+
 always @ (posedge clk)
+
 begin
+
    if(!rstn)
-     out<=0;
+   
+   out<=0;
+     
    else 
-     out <= out+1;
+   
+   out <= out+1;
+   
 end
+
 endmodule
 
 ## RTL LOGIC UP COUNTER:
