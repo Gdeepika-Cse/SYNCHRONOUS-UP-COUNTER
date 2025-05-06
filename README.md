@@ -30,7 +30,6 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 
 ## Procedure:
 
-
 1.Initialize the shift register to a known state (e.g., all zeros).
 
 2.Input a bit serially into the shift register.
@@ -40,7 +39,6 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 4.Output the shifted bit from the last stage of the register.
 
 5.Repeat steps 2-4 for each bit you want to input and shift.
-
 
 ## PROGRAM:
 
